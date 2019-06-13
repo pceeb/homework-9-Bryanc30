@@ -1,0 +1,54 @@
+1. Is the Readme file the first document displayed upon lading the Github? Does this Readme page include a title, and the name and contact information for all project members?
+
+The readme file is the first document shown. It does include a title "eLISA". Contact info is provided. 
+
+2. Is the purpose of this program clear from the Introduction? What -in your own words- is the motivation behind the program.
+
+The purpose of the program is clear (format and classify species as invasive or not). The motivation is to quickly sort data.
+
+3. Is there a program workflow and is it easy to understand? What -in your own words- is the program workflow?
+
+The program workflow is very easy to understand, since there is an accompanying picture. The program takes a datafile, formats it to include only the necessary information,
+and then stores the new datafile temporarily. It then uses this file and searches all of its contents on a species database, and outputs a summary table thereafter.
+
+4. Are the dependencies indicated in the workflow? If there are Hoffman2 specific requirements are they indicated?
+
+The dependencies are clearly listed. All Hoffman2 requirements are listed.
+
+5. Are there instructions for running the program? Do the instructions make sense? What would you do to improve the instructions?
+
+The instructions are quite clear. No improvement necessary.
+
+6. Is there a section that indicates the files and directories produced by the program?
+
+This goes under the "expected output" category in the Readme file.
+
+7. Are the research programs / motivations for the program cited? Are the dependencies cited?
+
+All sources, motivations, and dependencies are cited.
+
+The Scripts
+8. Is there a directory that contains all of the program scripts?
+
+There is.
+
+The Vignette
+9. Is there a directory called Vignette and does it include a test set, the commands used to run the program and the expected output databases?
+
+Yes, there is a vignette and it includes all of the above.
+
+10. Where you able to run the Vignette using the small test dataset? If not what errors did you get? If so was it easy to run the dataset? Where the instructions clear.
+
+I was able to run the Vignette; the R packages are always slightly finnicky but I managed to make it work. The instructions to do so were very clear and readable.
+
+11. Where you able to reproduce the expected output? If not what was different.
+
+The expected output appeared as described.
+
+General
+12. Give at least two suggestions for ways to improve the GitHub page or the operation of the program.
+
+My only advice would be to include a section as to why this program might be useful, with specific examples. Also, it might be easier for the user to run some
+of the Rscripts in the desktop version of Rstudio, but seeing as we needed all of this to run in Hoffman2, it's fine as is.
+
+
